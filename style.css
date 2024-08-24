@@ -1,0 +1,99 @@
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-style: italic;
+    h1 {
+        color: rgb(26, 152, 91);
+    }
+   
+}
+
+h2,h3,h4,h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-style: italic;
+    color: rgb(255, 0, 179);
+}
+.le signes {
+    text-decoration: underline;
+}
+em{
+    text-align: left;
+}
+li{
+    text-align: left;
+}
+p1 {
+    border-image-width: right;
+}
+body {
+    background-color: rgb(216, 217, 240);
+}
+h1 {
+background-image: url("depression4.gif");
+padding: 80px;
+background-position: center;
+color: rgb(242, 242, 245);
+background: linear-gradient(90deg, #8360c3, #2ebf91);
+opacity: 0.5;
+text-shadow: 6px 6px 2px blue;
+
+}
+.demo-border {
+    border-top: 0.2px #EB5353 dotted;
+    border-right: 0.2px #F9D923 double;
+    border-bottom: 0.2px #36AE7C dashed;
+    border-left: 0.2px #187498 solid;
+    box-shadow: 3px 3px 12px rgb(255, 0, 179);
+    border-radius: 30px 50px 7px 30px;
+}
+h6 {
+    border-top: 3px #EB5353 dotted;
+    border-right: 3px #F9D923 double;
+    border-bottom: 3px #36AE7C dashed;
+    box-shadow: 2px 2px 1px rgb(255, 0, 179);
+    font-size: 20px;
+    padding: 320px;
+    background-image: url("intissar.jpg");
+}
+img:hover {
+    opacity: 0.5;    
+}
+a:focus {
+    background-color: #ffa6db;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+fieldset {
+    background-color:#f1d2e5 ;
+}
+legend {
+    background-color: #ffa6db;
+}
+@media screen and (max-width: 1200px) {
+    p {
+        color: deeppink;
+    }
+    
+}
+@media screen and (max-width: 250px) {
+    .conteneur{
+        flex-direction: column;
+    }
+    
+} 
+/* Ajouter une bordure temporaire pour tous les éléments sur les écrans mobiles */
+@media screen and (max-width: 768px) {
+    * {
+        border: 1px solid red !important; /* Bordure rouge pour tous les éléments */
+        background-color: rgba(255, 0, 0, 0.1) !important; /* Fond léger rouge pour tous les éléments */
+    }
+}
+
+
+
