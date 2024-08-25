@@ -1,6 +1,6 @@
 /depression-chez-les-jeunes
 │
-├── mon-site.html
+├── index.html
 ├── style.css
 └── images/
     ├── depression.png
